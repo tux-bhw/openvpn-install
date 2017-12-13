@@ -9,7 +9,9 @@ Run the script and follow the assistant:
 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
 
-nano /lib/systemd/system/openvpn@.service 
+If using openvz - 
+
+nano /lib/systemd/system/openvpn@.service
 
 Comment - LimitNPROC in above file
 
